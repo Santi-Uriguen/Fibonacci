@@ -2,7 +2,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   box-sizing: border-box;}
-body {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,23 +22,23 @@ body .input {
   justify-content: center;
   margin: 2% 0;
 }
-body .input label {
+main .input label {
   font-family: Calibri, "Trebuchet MS", sans-serif;
   margin-bottom:2%;
   text-align:center;
 }
-body .buttons {
+main .buttons {
   display: flex;
   justify-content: center;
   margin: 2% 0;
 }
-body .h2 {
+main .h2 {
   width: 80%;
   display: flex;
   justify-content: center;
   margin-bottom:5%;
 }
-body .h2 p {
+main .h2 p {
   width: 100%;
     height:auto;
   display: flex;
@@ -48,5 +48,5 @@ body .h2 p {
   font-weight: 600;
 }
 @Media(max-width:900px){
-  body{
+  main{
   width:90%;}}
