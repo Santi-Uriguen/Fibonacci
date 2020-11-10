@@ -9,7 +9,7 @@ body {
   -moz-box-shadow: 3px 2px 22px 0px
   background-color:#FFF49C;
       width: 50%;
-    margin: auto;
+    margin: 10% auto;
 }
 body .input {
   display: flex;
@@ -31,6 +31,7 @@ body .h2 {
   width: 80%;
   display: flex;
   justify-content: center;
+  margin-bottom:5%;
 }
 body .h2 p {
   width: 100%;
