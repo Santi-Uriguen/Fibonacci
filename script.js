@@ -14,7 +14,6 @@ function fibonacciCount(inputValue) {
       fibonacci.push(i);
     } else {
       let newNumber = fibonacci[i - 1] + fibonacci[i - 2];
-      newNumber = newNumber.toLocaleString('fullwide', { useGrouping: false });
       fibonacci.push(newNumber);
     }
   }
