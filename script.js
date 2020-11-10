@@ -18,7 +18,7 @@ function fibonacciCount(inputValue) {
     }
   }
   console.log(fibonacci);
-  h2.innerText = fibonacci.toString(", ");
+  h2.innerText = fibonacci.join(", ");
 }
 button.addEventListener("click", () => {
   let inputValue = parseInt(input.value);
