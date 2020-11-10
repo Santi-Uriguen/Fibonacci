@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+body .input label {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+body .buttons {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+body .h2 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+body .h2 p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(25, 50, 50);
+  font-weight: 600;
+}
