@@ -49,4 +49,8 @@ main .h2 p {
 }
 @Media(max-width:900px){
   main{
-  width:90%;}}
+  width:90%;}
+    main .input{
+    margin: 2% 1%;}
+    main .buttons{
+    margin: 2% 1%;}}
