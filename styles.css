@@ -41,3 +41,6 @@ body .h2 p {
   color: rgb(25, 50, 50);
   font-weight: 600;
 }
+@Media(max-width:900px){
+  body{
+  width:90%;}}
