@@ -2,6 +2,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border:1px solid orange;
+  border-radius:10px;
+  box-shadow: 3px 2px 22px 0px;
+  -webkit-box-shadow: 3px 2px 22px 0px;
+  -moz-box-shadow: 3px 2px 22px 0px
+  background-color:#FFF49C;
 }
 body .input {
   display: flex;
