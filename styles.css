@@ -8,6 +8,8 @@ body {
   -webkit-box-shadow: 3px 2px 22px 0px;
   -moz-box-shadow: 3px 2px 22px 0px
   background-color:#FFF49C;
+      width: 50%;
+    margin: auto;
 }
 body .input {
   display: flex;
