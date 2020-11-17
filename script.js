@@ -19,8 +19,25 @@ function fibonacciCount(inputValue) {
 }
 button.addEventListener("click", () => {
   let inputValue = parseInt(input.value);
+  console.log(input.value);
+  console.log(inputValue);
+  if (
+    isNaN(inputValue) ||
+    inputValue === null ||
+    inputValue === "" ||
+    inputValue === undefined
+  ) {
+    h2.innerText = "por favor, indique la cantidad de valores";
+    return;
+  }
   let unoValue = parseInt(unoInput.value);
+  if (unoInput.value === "") {
+    unoValue = 1;
+  }
   let dosValue = parseInt(dosInput.value);
+  if (dosInput.value === "") {
+    dosValue = 1;
+  }
   fibonacci = [unoValue, dosValue];
   console.count(fibonacci);
   fibonacciCount(inputValue);
