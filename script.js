@@ -1,18 +1,15 @@
 let fibonacci = [];
 let input = document.getElementById("input");
+let unoInput = document.getElementById("uno");
+let dosInput = document.getElementById("dos");
 let button = document.getElementById("button");
 let erase = document.getElementById("button-erase");
 let h2 = document.querySelector("p");
 
 function fibonacciCount(inputValue) {
   h2.innerText = "";
-  fibonacci = [];
   for (let i = 0; i < inputValue; i++) {
-    if (i === 0) {
-      fibonacci.push(i + 1);
-    } else if (i === 1) {
-      fibonacci.push(i);
-    } else {
+    if (i > 1) {
       let newNumber = fibonacci[i - 1] + fibonacci[i - 2];
       fibonacci.push(newNumber);
     }
@@ -22,6 +19,10 @@ function fibonacciCount(inputValue) {
 }
 button.addEventListener("click", () => {
   let inputValue = parseInt(input.value);
+  let unoValue = parseInt(unoInput.value);
+  let dosValue = parseInt(dosInput.value);
+  fibonacci = [unoValue, dosValue];
+  console.count(fibonacci);
   fibonacciCount(inputValue);
   console.log(inputValue);
 });
